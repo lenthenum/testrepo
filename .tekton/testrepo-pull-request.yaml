@@ -421,7 +421,7 @@ spec:
       - name: netrc
         optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-testrepo
+    serviceAccountName: build-pipeline-test-component
   workspaces:
     - name: git-auth
       secret:
