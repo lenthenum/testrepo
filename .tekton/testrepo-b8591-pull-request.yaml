@@ -549,7 +549,7 @@ spec:
         - name: name
           value: tpa-scan
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-tpa-scan:0.1@sha256-060f320c7d86764721d1c77ff535156dad4f310fa5b97b1b2f2e69843b153b06
+          value: "quay.io/konflux-ci/tekton-catalog/task-tpa-scan:0.1"
         - name: kind
           value: task
         resolver: bundles
